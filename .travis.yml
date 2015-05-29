@@ -7,4 +7,4 @@ deploy:
     secure: 87fc3216-774d-4e09-8567-fd58a3530928
   app: lit-temple-9598
   on:
-    repo: filipeguelber/node-app
+    repo: jpviana/node-app
