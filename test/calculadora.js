@@ -54,6 +54,15 @@ describe('Calculadora', function() {
 				resultado.should.be.a.Number;
 				resultado.should.be.equal(0);
 			});
+			it('Deveria retornar 1 quando for passado 4 e 3.', function() {
+				var numero1 = 4;
+				var numero2 = 3;
+				
+				var resultado = controller.utils.calculos.subtrair(numero1, numero2);
+				
+				resultado.should.be.a.Number;
+				resultado.should.be.equal(1);
+			});
 			
 		});
 		
